@@ -1,0 +1,384 @@
+
+
+
+.MARCEDES{
+    position: relative;
+    background-image: url(MARCEDES.jpg);
+    min-height: 65vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    background-color: rgb(0 0 0 / 26%);
+    backdrop-filter: blur(4px);
+    max-width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 50px rgb(0 0 0 / 15%);
+    text-align: center;
+    color: white;
+}
+
+table {
+  width: 10%;
+ background:transparent;
+ 
+ 
+}
+
+
+
+table, th, td {
+    border:1px solid #191970;
+    
+  }
+
+  .inf{
+    color:#191970;
+  }
+
+  .car1{
+    font-size: 25px ;
+   
+   
+    font-family: 'Brush Script MT', cursive;
+    background-color:goldenrod;
+    color:black;
+  }
+
+  .car2{
+
+    font-size: 25px ;
+    font-family: 'Brush Script MT', cursive;
+    background-color:goldenrod;
+    color:black;
+  }
+
+  .car3{
+
+    font-size: 25px ;
+    font-family: 'Brush Script MT', cursive;
+    background-color:goldenrod;
+    color:black;
+  }
+
+  .car4{
+
+    font-size: 25px ;
+    font-family: 'Brush Script MT', cursive;
+    background-color:goldenrod;
+    color:black;
+  }
+
+
+  .car5{
+
+    font-size: 25px ;
+    font-family: 'Brush Script MT', cursive;
+    background-color:goldenrod;
+    color:black;
+  }
+
+
+  .car6{
+
+    font-size: 25px ;
+    font-family: 'Brush Script MT', cursive;
+    background-color:goldenrod;
+    color:black;
+  }
+
+
+
+  
+  .image1{
+
+    text-align:center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    animation: image1 5s infinite;
+    
+  }
+  @keyframes image1 {
+    50% {box-shadow: 10px 20px 30px gold ;}
+  }
+
+  .image2{
+    text-align:center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    animation: image1 5s infinite;
+    
+  }
+  @keyframes image1 {
+    50% {box-shadow: 10px 20px 30px gold ;}
+
+  }
+
+
+  
+  .image3{
+
+    text-align:center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    animation: image3 5s infinite;
+    
+  }
+  @keyframes image3 {
+    50% {box-shadow: 10px 20px 30px gold ;}
+  }
+  
+  
+   
+  .image4{
+
+    text-align:center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    animation: image4 5s infinite;
+    
+  }
+  @keyframes image4 {
+    50% {box-shadow: 10px 20px 30px gold ;}
+  }
+
+
+  .image5{
+
+    text-align:center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    animation: image5 5s infinite;
+    
+  }
+  @keyframes image5 {
+    50% {box-shadow: 10px 20px 30px gold ;}
+  }
+  
+
+  .image6{
+
+    text-align:center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    animation: image6 5s infinite;
+    
+  }
+  @keyframes image6 {
+    50% {box-shadow: 10px 20px 30px gold ;}
+  }
+  
+
+  .name1{
+    font-size: 30px ;
+    font-family: 'Brush Script MT', cursive;
+    color:#B8860B;
+    background-color:	#EEE8AA;
+  }
+
+
+  .name2{
+    font-size: 30px ;
+    font-family: 'Brush Script MT', cursive;
+    color:#B8860B;
+    background-color:	#EEE8AA;
+  }
+
+
+  .name3{
+    font-size: 30px ;
+    font-family: 'Brush Script MT', cursive;
+    color:#B8860B;
+    background-color:	#EEE8AA;
+  }
+
+
+  .name4{
+    font-size: 30px ;
+    font-family: 'Brush Script MT', cursive;
+    color:#B8860B;
+    background-color:	#EEE8AA;
+  }
+
+
+  .name5{
+    font-size: 30px ;
+    font-family: 'Brush Script MT', cursive;
+    color:#B8860B;
+    background-color:	#EEE8AA;
+  }
+
+
+  .name6{
+    font-size: 30px ;
+    font-family: 'Brush Script MT', cursive;
+    color:#B8860B;
+    background-color:	#EEE8AA;
+  }
+
+
+
+  footer
+.sections ul{
+    margin-left: 20px;
+    
+    margin-bottom: 100px;
+}
+
+label {
+    margin-right: 10px;
+    padding: 3px 3px 3px 3px;
+    border: 2px solid goldenrod;
+    background-color: #000;
+    color: goldenrod;
+    border-radius: 7px;
+    height: 30px;
+    font-weight: 600;
+
+}
+
+.sections li {
+    width: 150px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    /* width: 400px;
+    height: 30px; */
+    font-weight: 600;
+    font-size: 12px;
+}
+
+button a:hover {
+    color: goldenrod;
+}
+
+button {
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 3px 3px;
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    transition: 0.7s;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: black;
+
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+
+
+#copyright {
+    color: goldenrod;
+}
+
+.fttitle {
+    font-size: 1.3em;
+    font-weight: 600;
+    width: max-content;
+    
+}
+
+footer p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#yt {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+    color: red;
+    border: white;
+}
+
+
+#fb {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+    color: blue;
+}
+
+#go {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+}
+
+#wp {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+    color: green;
+}
+
+#in {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+    color: blueviolet;
+}
+
+.flinks li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.flinks{
+    justify-content: space-between;
+    
+    
+}
+
+
+
+
+.fttitle span {
+    color: goldenrod;
+}
+

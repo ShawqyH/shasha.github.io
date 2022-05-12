@@ -1,0 +1,310 @@
+    .cars{
+        text-align:center;
+        margin: auto;
+    }
+    
+    
+    
+    
+    
+    
+    .car1{  margin: 70px;
+        border: 4px solid #191970;
+        font-size: 25px ;
+        font-family: 'Brush Script MT', cursive;
+        margin: auto;
+        width:90%
+        
+        
+            
+            
+    }
+    .car2{ margin: 70px;
+        border: 4px solid #191970;
+        font-size: 25px ;
+        
+        font-family: 'Brush Script MT', cursive;
+        margin: auto;
+        width:90%
+    }
+    .car3{ margin: 70px;
+        border: 4px solid #191970;
+        font-size: 25px ;
+        font-family: 'Brush Script MT', cursive;
+        margin: auto;
+        width:90%
+    
+    }
+    
+    .car4{ margin: 70px;
+        border: 4px solid #191970;
+        font-size: 25px ;
+        font-family: 'Brush Script MT', cursive;
+        margin: auto;
+        width:90%
+    
+    }
+    
+    .car5{ margin: 70px;
+        border: 4px solid #191970;
+        font-size: 25px ;
+        font-family: 'Brush Script MT', cursive;
+        margin: auto;
+        width:90%
+    
+    }
+    
+    
+    
+    
+    .car6{ margin: 70px;
+        border: 4px solid #191970;
+        font-size: 25px ;
+        font-family: 'Brush Script MT', cursive;
+        margin: auto;
+        width:90%
+    
+    }
+    
+    
+    .name1{  
+        font-size: 30px ;
+        font-family: 'Brush Script MT', cursive;
+        
+    }
+    
+    .name2{  
+        font-size: 30px ;
+        font-family: 'Brush Script MT', cursive;
+    }
+    
+    .name3{  
+        font-size: 30px ;
+        font-family: 'Brush Script MT', cursive;
+    }
+    
+    .name4{  
+        font-size: 30px ;
+        font-family: 'Brush Script MT', cursive;
+    }
+    
+    
+    .name5{  
+        font-size: 30px ;
+        font-family: 'Brush Script MT', cursive;
+    }
+    
+    .name6{  
+        font-size: 30px ;
+        font-family: 'Brush Script MT', cursive;
+    }
+    
+    
+    .corolla{
+        color:black;
+        background-color:goldenrod;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+    
+    
+    }
+    
+    
+    
+    .belta{
+        color:black;
+        background-color:goldenrod;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+    }
+    
+    .rumion{
+        color:black;
+        background-color:goldenrod;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+    }
+    
+    .chr{
+        
+            color:black;
+            background-color:goldenrod;
+            border: 1px solid;
+            padding: 10px;
+            box-shadow: 5px 10px #888888;
+        
+    }
+    
+    .rush{
+        color:black;
+        background-color:goldenrod;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+    }
+    
+    
+    
+    
+    .fortuner{
+        color:black;
+        background-color:goldenrod;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        footer
+    .sections ul{
+        margin-left: 20px;
+        
+        margin-bottom: 100px;
+    }
+    
+    label {
+        margin-right: 10px;
+        padding: 3px 3px 3px 3px;
+        border: 2px solid goldenrod;
+        background-color: #000;
+        color: goldenrod;
+        border-radius: 7px;
+        height: 30px;
+        font-weight: 600;
+    
+    }
+    
+    .sections li {
+        width: 150px;
+        list-style-type: none;
+        display: inline-block;
+    }
+    
+    button a {
+        text-decoration: none;
+        color: #000;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        /* width: 400px;
+        height: 30px; */
+        font-weight: 600;
+        font-size: 12px;
+    }
+    
+    button a:hover {
+        color: goldenrod;
+    }
+    
+    button {
+        text-decoration: none;
+        margin-bottom: 20px;
+        padding: 3px 3px;
+        background-color: goldenrod;
+        width: 150px;
+        height: 30px;
+        transition: 0.7s;
+        text-align: center;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        transform: scale(1.1);
+        background-color: black;
+    
+    }
+    
+    footer {
+        background-color: #000;
+        color: white;
+        padding: 2em;
+        justify-content: space-between;
+    }
+    
+    
+    
+    #copyright {
+        color: goldenrod;
+    }
+    
+    .fttitle {
+        font-size: 1.3em;
+        font-weight: 600;
+        width: max-content;
+        
+    }
+    
+    footer p{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    #yt {
+        margin-right: 20px;
+        width: 5px;
+        height: 5px;
+        color: red;
+        border: white;
+    }
+    
+    
+    #fb {
+        margin-right: 20px;
+        width: 5px;
+        height: 5px;
+        color: blue;
+    }
+    
+    #go {
+        margin-right: 20px;
+        width: 5px;
+        height: 5px;
+    }
+    
+    #wp {
+        margin-right: 20px;
+        width: 5px;
+        height: 5px;
+        color: green;
+    }
+    
+    #in {
+        margin-right: 20px;
+        width: 5px;
+        height: 5px;
+        color: blueviolet;
+    }
+    
+    .flinks li{
+        list-style-type: none;
+        display: inline-block;
+    }
+    
+    
+    .flinks{
+        justify-content: space-between;
+        
+        
+    }
+    
+    
+    
+    
+    .fttitle span {
+        color: goldenrod;
+    }
+    
+    
