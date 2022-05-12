@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="sections.css">
+    <title>Sections</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id="UP"><img src="ITproject/1650155143843.jpg" alt="MainPage" width="120"
+            height="60"></a>
+        <nav class="menu">
+            
+            <ul class="menu">
+                <li><img id="dark" src="ITproject/moon.png" alt=""></li>
+                <li><a href="login.html">Log In</a></li>
+            </ul>
+            
+        </nav>
+        <script>
+            var icon = document.getElementById("dark")
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-mode")
+                if(document.body.classList.contains("dark-mode")){
+                    icon.src = "itproject/sun.png"
+                }else{
+                    icon.src = "itproject/moon.png"
+                }
+            }
+    
+        </script>
+    </header>
+    <div class="main">
+        <p class="ano"><h2>سياراتنا : </h2></p>
+        <ul class="sections">
+            <li><button><a href="shahouda/shahouda1/jetour.html" id="jetour">Jetour</a></button></li>
+            <li><button><a href="page1.html" id="audi">Audi</a></button></li>
+            <li><button><a href="shahd abdelsalam/BMW/BMW.htm" id="bmw">B M W</a></button></li>
+            <li><button><a href="shahd ahmed/ss2.html" id="porche">Porsche</a></button></li>
+            <li><button><a href="peugeot.html" id="peugeot">Peugeot</a></button></li>
+            <li><button><a href="shrif ayman/tesla/shiko/s outo.html" id="tesla">Tesla</a></button></li>
+            <li><button><a href="shahd hassan/TOYOTA CARS/HTML1.html" id="toyota">Toyota</a></button></li>
+            <li><button><a href="shahouda/Okavango.html" id="geely">Geely</a></button></li>
+            <li><button><a href="3aesha/jeep.html" id="jeep">Jeep</a></button></li>
+            <li><button><a href="3aesha/cadillac.html" id="cadilac">Cadillac</a></button></li>
+            <li><button><a href="shahd abdelsalam/Range Rover/rangerover.html" id="rangerover">Range Rover</a></button></li>
+            <li><button><a href="Shrouq/sangyong.html" id="reno">SsangYong</a></button></li>
+            <li><button><a href="Shrouq/subaru.html" id="ford">Subaru</a></button></li>
+            <li><button><a href="shahd ahmed/ss.html" id="ferrari">Ferrari</a></button></li>
+            <li><button><a href="shrif ayman/kia/av/kia.html" id="kia">K I A</a></button></li>
+            <li><button><a href="shahd hassan/MARCEDES CARS/HTML2.html" id="marcedes">Marcedes</a></button></li>
+        </ul>
+    </div>
+    <footer id="footer">
+        <p class="fttitle">Copyrights@ <span>SAUTO</span> <i class="fa-regular fa-copyright" id="copyright"></i>
+            <div class="links">
+                <a id="yt" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a id="fb" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                <a id="go" href="https://www.google.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+                <a  id="in" href="https://www.instgram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a id="wp" href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </p>
+    </footer>
+
+
+</body>
+
+</html>

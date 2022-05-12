@@ -1,0 +1,215 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#000;
+    --secondry-color: white;
+}
+
+.dark-mode{
+    --primary-color:white;
+    --secondry-color:#000;
+}
+
+#dark{
+    width: 30px;
+    cursor: pointer;
+}
+
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10ps 200px;
+    border-bottom: 5px solid goldenrod;
+}
+
+
+
+.menu a{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.menu li{
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.main {
+    padding-top: 70px;
+    direction: rtl;
+    background: url(ITproject/background.jpg) no-repeat;  
+    background-size: cover;
+    
+    background-position: center;
+    background-attachment: fixed;
+    line-height: 30px;
+}
+
+.sections {
+    margin-left: 20px;
+    /* margin-bottom: 100px; */
+}
+
+h2 {
+    margin-right: 10px;
+    padding:10px;
+    border: 2px solid goldenrod;
+    background-color: #000;
+    color: goldenrod;
+    width: max-content;
+    border-radius: 7px;
+    height: max-content;
+    font-weight: 600;
+
+}
+
+.main ul {
+    margin-top: 30px;
+    width: 150px;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+button a:hover {
+    color: goldenrod;
+}
+
+button {
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 3px 3px;
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    transition: 0.7s;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: black;
+
+}
+
+footer {
+    border-top: 5px solid goldenrod;
+    background-color: #000;
+    color: white;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+
+
+#copyright {
+    color: goldenrod;
+}
+
+.fttitle {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+#copyright {
+    color: goldenrod;
+}
+
+.fttitle {
+    font-size: 1.3em;
+    font-weight: 600;
+    width: max-content;
+    
+}
+
+footer p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#yt {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+    color: red;
+    border: white;
+}
+
+
+#fb {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+    color: blue;
+}
+
+#go {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+}
+
+#wp {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+    color: green;
+}
+
+#in {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+    color: blueviolet;
+}
+
+.flinks li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.flinks{
+    justify-content: space-between;
+    
+    
+}
+
+
+
+
+.fttitle span {
+    color: goldenrod;
+}

@@ -1,0 +1,198 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 5px solid goldenrod;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10ps 200px;
+}
+
+#main {
+    padding: 100px 200px;
+    background: url(ITproject/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    background-attachment: fixed;
+    color: #000;
+    padding-left: 500px;
+    /* font-weight: 100; */
+}
+
+.menu a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+
+
+form {
+    width: 500px;
+    height: 550px;
+    background-color: rgb(73, 65, 65, 0.712);
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+form input {
+    width: 205px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.712);
+    border-color: rgba(0, 0, 0, 0.644);
+    border: 3px;
+    border-radius: 5px;
+    padding-left: 12px;
+    margin-top: 23px;
+    margin-left: 23px;
+    margin-right: 16px
+}
+
+form h2 {
+    width: 205px;
+    height: 50px;
+    background-color: goldenrod;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+form p{
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+form p a{
+    color: goldenrod;
+    transition: 0.7s;
+}
+
+form p a:hover{
+    color: black;
+    transform: scale(2.1);
+}
+
+#email {
+    width: 455px;
+}
+
+.btn {
+    color: #000;
+    background-color: goldenrod;
+    width: 400px;
+    height: 50px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.644);
+    border: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.7s;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background-color: #000;
+    color: goldenrod;
+    transform: scale(1.1);
+}
+
+
+
+footer {
+    border-top: 5px solid goldenrod;
+    background-color: #000;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#copyright {
+    color: goldenrod;
+}
+
+.fttitle {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+#yt {
+    margin-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: red;
+    border: white;
+}
+
+
+#fb {
+    margin-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: blue;
+}
+
+#go {
+    margin-right: 50px;
+    width: 5px;
+    height: 5px;
+}
+
+#wp {
+    margin-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: green;
+}
+
+#in {
+    margin-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: blueviolet;
+}
+
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+footer ul{
+    justify-content: space-between;
+}
+
+.fttitle span {
+    color: goldenrod;
+}
