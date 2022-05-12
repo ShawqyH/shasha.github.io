@@ -1,0 +1,287 @@
+.logo{
+  position: absolute;
+  top: 230px;
+  left: 70px;
+}
+
+
+
+.coll{
+  padding-bottom: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  
+.Mlog{
+  float: left;
+  border: 5px solid goldenrod;
+  background-image:url("logo2.jpg");
+  background-repeat: no-repeat;
+  background-size: 750px 500px
+}
+
+  
+.h1{
+  text-align: center;
+  margin-top: 0%;
+  font-size:80px;
+}
+  
+.h2 {
+  text-align: center;
+  margin-top: 0%;
+  font-size: 50px;
+  color:goldenrod;  
+}
+
+.h3 {
+  border-color:goldenrod;
+  border-width: 10px 10px;
+  border-style: double;
+  text-align: center;
+  font-size: 40px;
+}
+
+.bmw1 {
+  position: absolute;
+    top:490px;
+    left: 765px;
+    width: 680px;
+    height: 480px;
+    border: 5px solid goldenrod;
+ }
+
+
+.p1{
+  font-size: 23px;
+  text-align: right;
+
+}
+
+.p2{
+  font-size: 23px;
+  text-align: left;
+}
+
+a.one:link {
+  color: rgb(28, 28, 180);
+  text-decoration:none;
+}
+a.one:visited {
+  color:rgb(28, 28, 180);
+  text-decoration:none;
+}
+a.one:hover {
+  color:goldenrod;
+  text-decoration:underline;
+}
+
+#BMWi {
+  width: 1460px;
+  height: 2300px;;
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+}
+
+.buttonc{
+  position: relative;
+  top: 10px;
+  left: 510px;
+  border-radius: 7px;
+  /* padding-:; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 38px;
+  margin: 16px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: goldenrod;
+  color: black;
+  border: 3px solid black;
+  display: block;
+  width: 20%;
+  height: 80px;
+}
+
+.buttonc:hover {
+  background-color:rgb(28, 28, 180) ; 
+  color: white; 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.buttonc:active {
+  background-color: goldenrod;
+  box-shadow: 0 5px #666;
+  transform: translateY(9px);
+}
+
+.pname{
+  font-size: 50px;
+  color:rgb(28, 28, 180);
+  text-align: left;
+}
+
+.i1{
+  left: 25px;
+  border: 5px solid goldenrod;
+}
+.i2{
+  right: 25px;
+  border: 5px solid goldenrod;
+}
+.i3{
+  left: 25px;
+  border: 5px solid goldenrod;
+}
+
+table{
+  width: 80%;
+  border: 1px solid goldenrod;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px; 
+}
+td {
+  height: 35px;
+}
+tr:nth-child(even) {background-color: rgba(128, 128, 128, 0.358);}
+
+
+.plink{
+  font-size: 20px;
+  color:rgb(28, 28, 180);
+}
+a.techl:link {
+  text-decoration:underline;
+  color:rgb(28, 28, 180);
+}
+a.techl:visited {
+  text-decoration:underline;
+}
+a.techl:hover {
+  color:goldenrod;
+  text-decoration:none;
+}
+
+#BMWz {
+  width: 1460px;
+  height: 4300px;;
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+
+}
+
+footer {
+  width: 100%;
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 30px;
+  background-color: rgba(160, 160, 160, 0.667);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 4px;
+  border-radius: 70px ;
+  border: solid goldenrod;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: white;
+  color: rgb(0, 145, 255);
+}
+
+.fa-instagram {
+  background-color: white;
+  color: rgb(207, 24, 249);
+}
+
+.fa-youtube {
+  background-color: white;
+  color: red;
+}
+
+.fa-twitter {
+  background-color: white;
+  color: #15d0ff;
+}
+
+.sections ul{
+  margin-left: 20px;
+  
+  margin-bottom: 100px;
+}
+
+label {
+  margin-right: 10px;
+  padding: 3px 3px 3px 3px;
+  border: 2px solid goldenrod;
+  background-color: #000;
+  color: goldenrod;
+  border-radius: 7px;
+  height: 30px;
+  font-weight: 600;
+
+}
+
+.sections li {
+  width: 150px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+button a {
+  text-decoration: none;
+  color: #000;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* width: 400px;
+  height: 30px; */
+  font-weight: 600;
+  font-size: 12px;
+}
+
+button a:hover {
+  color: goldenrod;
+}
+
+button {
+  text-decoration: none;
+  margin-bottom: 20px;
+  padding: 3px 3px;
+  background-color: goldenrod;
+  width: 150px;
+  height: 30px;
+  transition: 0.7s;
+  text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: black;
+
+}

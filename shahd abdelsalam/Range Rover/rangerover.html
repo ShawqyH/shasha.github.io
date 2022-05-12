@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>S AUTO</title>
+    <link rel="stylesheet" href="stylesheet1.css">
+    <link rel="stylesheet" href="stylesheet2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+      
+        <img src="lr.jpg" width="13%">
+        <img  class="rrl" src="hr.png" >
+    
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="i4.jpg" width="100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="i5.jpg" width="100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="i8.jpg" width="100%">
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+        <div class="intro">
+
+          <div class="clearfix">   
+          <img class="img1" src="im2.jpg" width="600px" height="500px">
+          <p class="im">
+            لاند روفر رينج روفر ( المعروفة عمومًا باسم رينج روفر ) هي سيارة دفع رباعي تنتجها لاند روفر ، وهي علامة تجارية وعلامة تجارية فرعية تابعة لجاكوار لاند روفر و تم إطلاق خط رينج روفر في عام 1970 من قبل شركة ليلاند البريطانية وهو الآن في جيلها الخامس
+            <br><br>
+            تم إطلاق طرز إضافية تحت اسم رينج روفر ، بما في ذلك رينج روفر سبورت ورينج روفر إيفوك ورينج روفر فيلار
+            <br><br>
+            جرى إنتاج الجيل الأول من رينج روفر بين عامي 1970 و 1996. وعلى العكس من سيارات الدفع الرباعي الأخرى مثل جيب واغونير، لم يجر تصميم رينج روفر على أنها سيارة فارهة، حيث حملت طلائع سيارات رينج روفر داخلية بسيطة بمقاعد من الفاينيل ولوحات قيادة من البلاستيك صممت لكي تغسل بخراطيم المياه، ولم تُضف وسائل الراحة مثل التوجيه المعزز وسجاد الأرضية وتكييف الهواء والمقاعد القماشية أو الجلدية وتطعيمات الخشب الداخلية إلا لاحقًا
+            <br><br>
+           صُمم رينج روفر بجسم وهيكل مفصولين، مثل سيارات لاند روفر ديفندر الحديثة. وامتاز بزنبرك حلزوني لا زنبرك صفائحي ودفع رباعي دائم ومكابح قرصية على العجلات الأربعة. لكن مع الجيل الثالث بدأ استخدام جسم أحادي الهيكل. عملت سيارة رينج روفر في البداية على محرك روفر ثماني الاسطوانات، ثم عملت طرازات لاحقة منها على محرك بي إم دبليو ثماني اسطوانات بسعة 4.4 لتر، حتى تم تقديم محرك تي دي ڤي 8 بسعة 3.6 لتر
+           <br><br>
+           لمعرفة المزيد من المعلومات عن الشركة يمكنك زيارة هذا الرابط
+           <br>
+           <a class="wlink" href="https://en.wikipedia.org/wiki/Range_Rover">wikipedia.Range_Rover</a>
+           <br><br>
+           </p>
+        </div>
+        </div>
+        <p class="rf">
+          "MEET THE RANGE ROVER FAMILY"
+          <br>
+         <i class="down"></i>
+        </p>
+        <div class="coll">
+          <img  class="mir" src="mrr.jpg">
+          <div class="rvm"> <b> RANGE ROVER <br> MODELS </b> </div>
+        </div>
+        <div class="allc">
+          <h1> RANGE ROVER SPORT</h1>
+            <br>
+          <div class="clearfix">  
+            <img class="imgs" src="rrs.jpg" alt="sport">
+            <table class="table">
+              <tr>
+                <td>249</td>
+                <td>القوة القصوى (حصان)​</td>
+              </tr>
+              <tr>
+                <td> 209</td>
+                <td>السرعة القصوى (كم/س)
+                </td>
+              </tr>
+              <tr>
+                <td>8.5</td>
+                <td>التسارع 0-100كم/س</td>
+              </tr>
+              <tr>
+                <td>1,890,000 EGP</td>
+                <td>سعر السيارة</td>
+              </tr>
+            </table>
+          
+              <video  class="video" controls>
+                <source src="New Range Rover Sport – Design.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+
+
+            <p class="plin">
+               لمعرفة المزيد من المعلومات عن السيارة قم بزيارة هذا الرابط
+              <br>
+              <a class="wlink" href="https://www.landrover-egypt.com/en/vehicles-range-rover-sport-22my-models"> RangeRover_sport</a>
+            </p>
+
+            
+          </div>
+        </div>
+
+        <div class="allc">
+          <h1> RANGE ROVER VELAR</h1>
+            <br>
+          <div class="clearfix">  
+            <img class="imgs" src="rrv.jpg" alt="VELAR">
+            <table class="table">
+              <tr>
+                <td>204</td>
+                <td> القوة القصوى (حصان)​​</td>
+              </tr>
+              <tr>
+                <td> 210</td>
+                <td>السرعة القصوى (كم/س)
+                </td>
+              </tr>
+              <tr>
+                <td>8.2</td>
+                <td>التسارع 0-100كم/س</td>
+              </tr>
+              <tr>
+                <td>1,290,000 EGP</td>
+                <td>سعر السيارة</td>
+              </tr>
+            </table>
+
+            <video  class="video" controls>
+              <source src="Introducing Range Rover Velar.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+
+
+            <p class="plin"> لمعرفة المزيد من المعلومات عن السيارة قم بزيارة هذا الرابط
+              <br>
+              <a class="wlink" href="https://www.landrover-egypt.com/en/vehicles-range-rover-velar-22my-models"> RangeRover_Velar</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="allc">
+          <h1> RANGE ROVER EVOQUE </h1>
+            <br>
+          <div class="clearfix">  
+            <img class="imgs" src="rre.jpg" alt="EVOQUE ">
+            <table class="table">
+              <tr>
+                <td>206</td>
+                <td>القوة القصوى (حصان)​</td>
+              </tr>
+              <tr>
+                <td>101 </td>
+                <td>السرعة القصوى (كم/س)
+                </td>
+              </tr>
+              <tr>
+                <td>5.0</td>
+                <td>التسارع 0-100كم/س</td>
+              </tr>
+              <tr>
+                <td>1,450,000 EGP</td>
+                <td>سعر السيارة</td>
+              </tr>
+            </table>
+
+            <video  class="video" controls>
+              <source src="New Range Rover Evoque - A Dog’s Dream.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+
+            <p class="plin"> لمعرفة المزيد من المعلومات عن السيارة قم بزيارة هذا الرابط
+              <br>
+              <a class="wlink" href="https://www.landrover-egypt.com/en/vehicles-range-rover-evoque-23my-models"> RangeRover_EVOQUE </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="allc">
+          <h1> THE NEW RANGE ROVER </h1>
+            <br>
+          <div class="clearfix">  
+            <img class="imgs" src="nrr.jpg" alt="NEW">
+            <table class="table">
+              <tr>
+                <td>206</td>
+                <td>القوة القصوى (حصان)​</td>
+              </tr>
+              <tr>
+                <td>8,3‡</td>
+                <td>السرعة القصوى (كم/س)
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>التسارع 0-100كم/س</td>
+              </tr>
+              <tr>
+                <td>2,390,000 EGP</td>
+                <td>سعر السيارة</td>
+              </tr>
+            </table>
+
+            <video  class="video" controls>
+              <source src="New Range Rover.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+
+            <p class="plin"> لمعرفة المزيد من المعلومات عن السيارة قم بزيارة هذا الرابط
+              <br>
+              <a class="wlink" href="https://www.landrover-egypt.com/en/vehicles-new-range-rover-models"> RangeRover_THE NEW RANGE ROVER</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="allc">
+          <h1> THE RANGE ROVER </h1>
+            <br>
+          <div class="clearfix">  
+            <img class="imgs" src="rrr.jpg" alt="the">
+            <table class="table">
+              <tr>
+                <td>300</td>
+                <td>القوة القصوى (حصان)​</td>
+              </tr>
+              <tr>
+                <td> 209</td>
+                <td>السرعة القصوى (كم/س)
+                </td>
+              </tr>
+              <tr>
+                <td>7.4</td>
+                <td>التسارع 0-100كم/س</td>
+              </tr>
+              <tr>
+                <td>1,999,000 EGP</td>
+                <td>سعر السيارة</td>
+              </tr>
+            </table>
+
+            <video  class="video" controls>
+              <source src="New Range Rover - Accessories.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+
+            <p class="plin"> لمعرفة المزيد من المعلومات عن السيارة قم بزيارة هذا الرابط
+              <br>
+              <a class="wlink" href="https://www.landrover-egypt.com/en/vehicles-range-rover-22my-models"> THE RangeRover</a>
+            </p>
+          </div>
+        </div>
+
+        <button class="db" onclick="myFunction()"> Dark Mode</button>
+
+        <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+
+  <footer>
+
+    <p style="text-align: center;">
+      Land Rover social media
+    </p>
+   
+    <p>
+     <a href="https://www.facebook.com/LandRoverMENA/?brand_redir=10369058551" class="fa fa-facebook"></a>
+     <a href="https://twitter.com/LandRover?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+     <a href="https://www.youtube.com/channel/UCZANLEnWKjMbuIkCtDUOqlA" class="fa fa-youtube"></a>
+     <a href="https://www.instagram.com/landrover/?hl=en" class="fa fa-instagram"></a>
+     
+     </p>
+
+    <div>
+      <ul class="sections">
+        <li><button><a href="../../shahouda/shahouda1/jetour.html" id="jetour">Jetour</a></button></li>
+        <li><button><a href="../../page1.html" id="audi">Audi</a></button></li>
+        <li><button><a href="../BMW/BMW.htm" id="bmw">B M W</a></button></li>
+        <li><button><a href="../../shahd ahmed/ss2.html" id="porche">Porsche</a></button></li>
+        <li><button><a href="../../peugeot.html" id="peuguet">Peuguet</a></button></li>
+        <li><button><a href="../../shrif ayman/tesla/shiko/s outo.html" id="tesla">Tesla</a></button></li>
+        <li><button><a href="../../shahd hassan/TOYOTA CARS/HTML1.html" id="toyota">Toyota</a></button></li>
+        <li><button><a href="../../shahouda/Okavango.html" id="geely">Geely</a></button></li>
+        <li><button><a href="../../3aesha/jeep.html" id="jeep">Jeep</a></button></li>
+        <li><button><a href="../../3aesha/cadillac.html" id="cadilac">Cadillac</a></button></li>
+        <li><button><a href="rangerover.html" id="rangerover">Range Rover</a></button></li>
+        <li><button><a href="../../Shrouq/sangyong.html" id="reno">SsangYong</a></button></li>
+        <li><button><a href="../../Shrouq/subaru.html" id="ford">Subaru</a></button></li>
+        <li><button><a href="../../shahd ahmed/ss.html" id="ferrari">Ferrari</a></button></li>
+        <li><button><a href="../../shrif ayman/kia/av/kia.html" id="kia">K I A</a></button></li>
+        <li><button><a href="../../shahd hassan/MARCEDES CARS/HTML2.html" id="marcedes">Marcedes</a></button></li>
+    </ul>
+  </div>
+
+  <P> Copyrights@ <span>S AUTO</span></P>
+
+  </footer>
+    
+
+
+  </body>
+</html>
