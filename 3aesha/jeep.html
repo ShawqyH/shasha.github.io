@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeep</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <script src="https://kit.fontawesome.com/39921b6f25.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" id="UP"><img src="imges/headerimg.jpg" alt="MainPage" width="120"
+            height="60"></a>
+    <nav class="menu">
+        <a href="#footer" >Sections</a>
+    </nav>
+     </header>
+           
+           
+    <!--------------------------------------------------------------------------------->
+    
+    <!--------------------------------------------------------------------------------->
+
+    <!--------------------------------------------------------------------------------->
+      
+    <div class="container">
+      <div class="fitimg">
+      <img class="mySlides" src="imges/j1.jpg">
+      <img class="mySlides" src="imges/j2.webp">
+      <img class="mySlides" src="imges/j3.jpg">
+     </div>
+      <button class="btn-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="btn-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+     <!-- dark mode -->
+    <button class="dmb"onclick="myFunction()">dark mode</button>
+
+    <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+     <!-- dark mode -->
+<h1 class="nameofcar"> JEEP® WRANGLER</h1>
+<p class="about">على مدار 80 عامًا ، ارتبطت علامة جيب® التجارية ارتباطًا وثيقًا بالحرية والمغامرة والأصالة . تتجسد قيمنا الأساسية في الحمض النووي لكل سيارة ماركة جيب. على مدار تاريخنا الحافل ...</p>
+<img class="headerimg" src="imges/j8.jpg" width="100%">
+
+<section class="header">
+<div id="div1" class="header-col">
+    <p class="t1">الأداء</p>
+    <div class="contanier">
+    <P id="one">تتمتع بالقدرة الفنية على التعامل مع أي تضاريس أو ظروف تضعها الطبيعة في طريقك. وهي أيضاً أسرع وأقوى سيارة جيب رانجلر على الطرق الوعرة في تاريخ العلامة التجارية؛ وجرى تطويرها واختبارها على نطاق واسع في الصحراء الوعرة، والبيئات الطبيعية الجبلية في المنطقة.
+
+      ومن خلال مواصفاتها التي تتميز بمغرفة غطاء المحرك الوظيفية المبرِّدة، ورفع السيارة في المصنع، والطاقة الوفيرة التي يقدمها محرك V8، فإن جيب رانجلر روبيكون 392 كفيلة بأن تُعيد لمقتنيها عشق الحياة البرية، سواء من خلال قهر الكثبان الرملية أو تحدي الصخور فوق المنحدرات الجبلية الشاهقة..</P>
+       <img class="capimg" src="imges/j7.jpg">
+      </div>
+  </div>
+<div id="div2" class="header-col">
+    <p class="t1">السلامة و الأمن</p>
+    <div class="contanier">
+    <P id="tow">تأتي رانجلر مع مجموعة واسعة من ميزات الأمان والسلامة بما في ذلك وسائد هوائية أمامية متقدمة متعددة المراحل ، ونظام الدخول بدون مفتاح ونظام الحماية من السرقة للمحرك Sentry Key ® ، ومرآة الرؤية الخلفية الخافتة تلقائيًا والمرايا المسخنة كهربائياً. تشتمل الميزات الإضافية على هيكل على الهيكل ، وقرص رباعي على الطرق الوعرة / على الطرق الوعرة ، ونظام الفرامل المانعة للانغلاق (ABS) ، ومساعدة الفرامل والمزيد.</P>
+       <img class="capimg" src="imges/j6.jpg">
+ 
+      </div>
+      <a  class="link" href="https://www.jeep.com/"target="_blank" ></i>للمزيد من المعلومات  > </a> 
+       
+
+  </div>
+
+</section>
+
+<div class="table1">
+    <table>
+      <tr>
+        <th>النوع <i  class="fa-solid fa-car"></i> </th>
+        
+        <tH>السعر <i class="fa-solid fa-tag"></i></th>
+        
+        <th>السرعة  <i class="fa-solid fa-gauge-high"></i></th>
+      </tr>
+      <tr>
+        <td>jeep wrangler 4xe </td>
+        <td>$37,190</td>
+        <td>120mhp </td>
+      </tr>
+      <tr>
+        <td>jeep wrangler rubicon</td>
+        <td>$28,595</td>
+        <td>100mhp</td>
+      </tr>
+      <tr>
+        <td>jeep wrangler sport 4x4</td>
+        <td>$30,050</td>
+        <td>125mhp</td>
+      </tr>
+    </table>
+  </div>
+
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+    <!--------------------------------------------------------------------------------->
+
+    <!--------------------------------------------------------------------------------->
+
+    <!--------------------------------------------------------------------------------->
+    
+    <footer id="footer">
+        
+      <div>
+          <ul class="sections">
+              <li><button><a href="../shahouda/shahouda1/jetour.html" id="jetour">Jetour</a></button></li>
+              <li><button><a href="../page1.html" id="audi">Audi</a></button></li>
+              <li><button><a href="../shahd abdelsalam/BMW/BMW.htm" id="bmw">B M W</a></button></li>
+              <li><button><a href="../shahd ahmed/ss2.html" id="porche">Porsche</a></button></li>
+              <li><button><a href="../peugeot.html" id="peuguet">Peuguet</a></button></li>
+              <li><button><a href="../shrif ayman/tesla/shiko/s outo.html" id="tesla">Tesla</a></button></li>
+              <li><button><a href="../shahd hassan/TOYOTA CARS/HTML1.html" id="toyota">Toyota</a></button></li>
+              <li><button><a href="../shahouda/Okavango.html" id="geely">Geely</a></button></li>
+              <li><button><a href="jeep.html" id="jeep">Jeep</a></button></li>
+              <li><button><a href="cadillac.html" id="cadilac">Cadillac</a></button></li>
+              <li><button><a href="../shahd abdelsalam/Range Rover/rangerover.html" id="rangerover">Range Rover</a></button></li>
+              <li><button><a href="../Shrouq/sangyong.html" id="reno">SangYong</a></button></li>
+              <li><button><a href="../Shrouq/subaru.html" id="ford">Subaru</a></button></li>
+              <li><button><a href="../shahd ahmed/ss.html" id="ferrari">Ferrari</a></button></li>
+              <li><button><a href="../shrif ayman/kia/av/kia.html" id="kia">K I A</a></button></li>
+              <li><button><a href="../shahd hassan/MARCEDES CARS/HTML2.html" id="marcedes">Marcedes</a></button></li>
+          </ul>
+      </div>
+      <div>
+          <p class="fttitle">Copyrights@ <span>SAUTO</span> <i class="fa-regular fa-copyright" id="copyright"></i>
+              <div class="links">
+                  <a id="yt" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                  <a id="fb" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                  <a id="go" href="https://www.google.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+                  <a  id="in" href="https://www.instgram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a id="wp" href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+          </p>
+      </div>
+      <br>
+  </footer>
+
+</body>
+</html>
